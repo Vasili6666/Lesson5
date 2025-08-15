@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class CheckOpeningEnterprizeTest {
     @Test
-    void testEnterprisePageOpening() {
+    void EnterprisePageOpeningTest() {
         // открыть страницу
         open("https://github.com/");
         // найти элемент "Solutions" + hover
