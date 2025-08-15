@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class CheckOpenEnterPrizeTest {
+public class CheckOpeningEnterprizeTest {
     @Test
     void testEnterprisePageOpening() {
         // открыть страницу
