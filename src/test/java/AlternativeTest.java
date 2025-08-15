@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selectors.withTagAndText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class Alternative {
+public class AlternativeTest {
      @Test
         public void openEnterprisePlatformPageTest() {
             open("https://github.com");
