@@ -8,16 +8,13 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class CheckOpeningEnterprizeTest {
     @Test
-    void EnterprisePageOpeningTest() {
-        // открыть страницу
+    void enterprizePageOpeningTest() {
+
         open("https://github.com/");
-        // найти элемент "Solutions" + hover
         $(byText("Solutions")).hover();
-        // найти "Enterprises" + кликнуть
         $(byText("Enterprises")).click();
-        // проверить открытие страницы
         $("#hero-section-brand-heading").shouldHave(text("The AI-powered developer platform"));
-        // закрыть страницу
+
         Selenide.closeWebDriver();
     }
 
